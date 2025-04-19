@@ -1,0 +1,19 @@
+@media  all and (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link.active{
+        background-color: var(--orange);
+        color: #fff;
+        border-radius: 5px;
+     }
+     .related-posts .related-post-item{
+        margin: 5% 0;
+        border-bottom: none;
+    }
+    .related-post-item p{
+        border-bottom: 1px solid black;
+    }
+    footer{
+        padding: 2% 0;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+}
